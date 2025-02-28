@@ -1,0 +1,54 @@
+body {
+    /*font-size: 15pt;*/
+}
+table{ margin:auto;
+    min-width:70vw;
+column-gap: 10px;
+border:none;
+width:98%;
+border-collapse:collapse;
+/*border-spacing: 20px 10px;*/
+
+column-gap:20px;
+row-gap:10px;
+/* cellpadding:10;
+  cellspacing:20;*/
+}
+th{border:none;
+  min-height:20vh;
+background-color:#002F63;
+color:white;
+padding:10px;}
+tr,td{border:none;
+  text-align:center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+table span{display:flex;
+flex-diretion:row;}
+td span{display:flex;
+  flex-direction:row;
+}
+/*button styling*/
+#active,#approve{background-color: rgb(15, 161, 113);
+color:white;
+border:none;
+min-width:6vw;
+padding:0.3rem;
+border-radius:3px;}
+#inactive,#reject{background-color:orange;
+    color:white;
+    border:none;
+    min-width:6vw;
+    padding:0.3rem;
+    border-radius:3px;}
+    #approve{margin-right:1.5vw;}
+#leave-approval{
+    min-width:70vw;
+}
+table button{background-color: grey;
+color:white;
+border:none;
+padding:0.3rem;
+min-width:6vw;
+border-radius:3px;}

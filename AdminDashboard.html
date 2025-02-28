@@ -1,0 +1,303 @@
+Here is a basic HTML code for a sidebar with the requested items:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Dashboard</title>
+	<link rel="stylesheet" href="./css/Admin.css"></link>
+	<link href="employee.css" rel="stylesheet"/>
+</head>
+<body >
+	<div class="sidebar">
+		<div class="logo">
+			<img src="logo.png" alt="Company Logo">
+		</div>
+		
+		<ul><li><a href="#">Dashboard</a></li>
+			<li><a href="#">Employees</a></li>
+			<li><a href="#">Calendar </a></li>
+			<li><a href="#">Attendance</a></li>
+			<li><a href="#">Performance</a></li>
+			<li><a href="#">Payroll</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Analytics and report</a></li>
+             <li><a href="#">Administration</a></li>
+		</ul>
+		<ul id="others"><li><a href="#">Help desk</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
+		<hr>
+        <span><img src="avatar.jpeg"/><span style="display:grid"><h4>Wisdom Chibuzor</h4>
+        <p style="margin-top:auto;">chizzy@ecz.com</p></span></span></ul>
+    </div>
+	<div class="main-content">
+	  <nav>
+		<span style="display:flex;"> <h2>Welcome <strong>Wisdom</strong></h2>
+			<input type="search" placeholder="Search fetures and events"/></span>
+		  <span><i class="fa fa-bell"></i><i class="fa fa-message"></i> <p>Wisdom Chibuzor</p> 
+			<img src="avatar.jpeg"/>
+		</span>
+	  </nav>
+		<!-- overview dash board  -->
+		<div id="overview">
+			<h2>Overview</h2>
+			<span>
+				<div id="overview1">
+					<div>
+						<input type="search" placeholder="searchbar"/>
+						<input type="search" placeholder="Search for features events"/>
+					  <div id="overview">
+					  <h2>258 <br>Employees</h2>
+					  <label for="on-time">On time</label><br>
+					   <progress max="100" value="80"></progress><br>
+					  <label for="on-time">late</label><br>
+					  <progress max="100" value="20"></progress><br>
+					  <label for="on-time">Absentees</label><br>
+					  <progress style="color:orange" max="100" value="18"></progress><br>
+					  <label for="on-time">On leave</label><br>
+					  <progress max="100" value="10"></progress><br>
+					  <button><a href="#">View employees</a></button>
+					</div>
+					<div id="working format">
+                    
+					</div>
+					
+				</div>
+				<div id="overview2">
+					<ul><li>Employee Performance</li>
+					<li><a href="#">view all</a></li></ul>
+					<img src=""/>
+
+				</div>
+			</span>
+			<span>
+				<div id="company-payment">
+
+				</div>
+				<div id="events">
+					<span><h4>Birthday/Events</h4>
+					<h4>January 2025</h4><i class="fa fa-calendar"></i></span>
+					<div id="event1">
+					<span style="display:flex"><img src=""/> <div style="display:grid">
+					  <h3>Edward Philip</h3>
+					  <p>Accounting officer</p>
+					</div></span>
+					<table>
+                   <tr>
+                   <th>Birthday/Events</th>
+                   <th>january 2025 <i class="fa fa-calendar"></i></th>
+                    </tr>
+                    <tr>
+					    <td>
+							<div id="c1"><img src=""/>
+							</div>
+							<div id="c2"><h3>Edward Philips</h3>
+							<p>Accounting officer</p></div>
+						</td>
+						 <td><h4>5th</h4><i class="fa fa-message"></i></td>
+						 <td>column3</td>
+                   
+                    </tr>
+                    <tr>
+                  <td>
+				 <div id="c1"><img src=""/>
+				  </div>
+				  <div id="c2"><h3>Sharon Awolowo</h3>
+				    <p>Sales manager</p>
+				    </div>
+				 </td>
+                 <td><h4>8th</h4><i class="fa fa-message"></i></td>
+                 </tr>
+                 <tr>
+                 <td>
+                 <div id="c1">
+				 <img src=""/>
+                 </div>
+                 <div id="c2"><h3>Inauguration day</h3>
+                 <p>National holiday</p></div>
+                 </td>
+                 <td><h4>20th</h4><i class="fa fa-message"></i></td>
+                 </tr>
+                 </table>
+				</div>
+			</span>
+		</div>
+		
+	    
+     </div>
+    
+    
+
+
+ <table border="1">
+  <tr>
+    <th><input type="checkbox"/></th>
+    <th>Names</th>
+    <th>Employee ID</th>
+    <th>Leave Type</th>
+    <th>Date</th>
+    <th>Length of leave </th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+    <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+  <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""qq a/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+  
+ <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+ <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+  
+ <tr>
+    <td><input type="checkbox"/></td>
+    <td><span><img src=""/><span style="display:grid"><p>Atiloye Timilehin </p><address>Sales</address></span></span></td>
+    <td>ECSSAL025</td>
+    <td><button id="col-4">Sick leave</button></td>
+    <td><span style="display:grid"><p>Jan 13,2025</p>
+    <address>8:30 am</address></span></td>
+    <td>4 days</td>
+    <td><span><button id="approve">Approve</button><button id="reject">Reject</button></span></td>
+    
+  </tr>
+</table>
+<!----```
+
+You can adjust the content of the table to suit your needs.-->
+
+
+<table border="1">
+  <tr>
+    <th>Employee</th>
+    <th>Employee ID</th>
+    <th>Employee Role</th>
+    <th>Employment Type</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="active">Active</button></td>
+  </tr>
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="inactive">Inactive</button></td>
+  </tr>
+
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="inactive">Inactive</button></td>
+  </tr>
+
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="inactive">Inactive</button></td>
+  </tr>
+  
+
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="inactive">Inactive</button></td>
+  </tr>
+
+
+  <tr>
+    <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+    <td>Network Engineer</td>
+    <td>Network Engineer</td>
+    <td><button id="col-4">Full-time</button></td>
+    <td>12345@gmail.com</td>
+    <td>+2349054367890</td>
+    <td><button id="inactive">Inactive</button></td>
+  </tr>
+  
+</table>
+	</div>
+	
+	<div id="overview">
+	  <h2>Overview</h2>
+	  <span>
+	    <div id="overview1">
+	      <h3>258</h3>
+	      <h4>Employees</h4>
+	      <label for ="On-time">On-time</label>
+	      <progress max="100" value="80" id="progressbar1"></progress>
+	    </div>
+	  </span>
+	</div>
+</body>
+</html>

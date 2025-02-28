@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/employeetraining.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Employee Course</title>
+</head>
+<body>
+    
+    <nav> 
+        <h1>Employee Profile</h1>
+        <span id="nav">
+            <a href="#" target="blank">Overview</a><a href="performance.html">Performance</a> <a href="#">Attendance&leave</a> 
+            <a href="#">Task and project Contributions</a><a href="Employeetraining.html">Training and Development</a>
+            <a href="feedback&review.html">Feedback & Reviews</a>
+        </span>
+    </nav>
+    <div id="sub-nav"><img src="Img/img.jpg" id="avatar"/> 
+       
+            <ul>
+            <li style="margin-right:1vw; font-weight:600; font-size:26px;">Atiloye Timilehin</li><li>100-10-23-1<li></ul>
+        <ul style="magin-top:2vh"><li>NetworkEngineer,IT Department</li></ul>
+        <ul style="magin-top:2vh"><li><i class="fa fa-envelope"></i></li>
+        <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>
+        <ul style="magin-top:2vh"><li><i class="fa fa-phone"></i></li>
+        <li style="margin-right:1vw;">Phone:</li>
+        <li>+2349054367890<li></ul>
+       <!----<ul><li><h2 style="margin-right:1vw;">Atiloye Timilehin</h2></li><li><p>100-10-23-1</p></li>
+        </ul>
+         <h4>Network Engineer,IT Department</h4> <ul><li><i class="fa fa-envelope"></i></li>
+            <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>   <ul><li><i class="fa fa-envelope"></i></li>
+                <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>-->
+    </div>
+    <hr>
+    <span id="courseoverview">
+        <div id="traininingprogress"><img src="Img/rating.png"/></div>
+        <div id ="ongoingcourse">
+            <h4>Ongoing Course</h4>
+            <div><span><label>Troubleshoot connectivity issues</label><label>85%</label></span>
+            <progress max="100" value="85">85%</progress></div>
+            <div><span><label>Troubleshoot connectivity issues</label><label>45%</label></span>
+                <progress max="100" value="45">85%</progress>
+            </div>
+            <div><span><label>Conduct security  audits</label><label>65%</label></span>
+                <progress max="100" value="45">85%</progress>
+            </div>
+            <button >Add a comment </button>
+        </div>
+        <div id ="ongoingcourse"><!-- i make use of same id with the previous div to avoid a lengthy styling-->
+            <h4>Completed  Course</h4>
+            <div><span><label>Optimize network performance</label><label>100%</label></span>
+            <progress max="100" value="100"></progress></div>
+            <div><span><label>Set up network architecture</label><label>100%</label></span>
+                <progress max="100" value="100"></progress>
+            </div>
+            <div><span><label>Conduct security  audits</label><label>100%</label></span>
+                <progress max="100" value="100"></progress>
+            </div>
+            <button >Add a comment </button>
+        </div>
+        <div id="some-btns"><button>Give feedback</button>
+            <button>View request</button>
+            <button>Suggest course</button>
+        </div>
+    </span>
+    <span>
+        <!--<div id="cloudintegration">
+            <div id="cloudimage">
+                <img src=""/>
+            </div>
+            <div id="content">
+             <h2>Cloud Integration Training</h2>
+             <p>Master the deployment and management of cloud<br> solutions,ensuring
+                seamless integration with our<br> existing system for improved sustainbility and <br>perrformance." </p>
+                <span>
+                    <div><label for="progress">Progress<bold>0%</bold>
+                 <progress max="100" value="1"></progress></div>
+                 <div><button>Suggest</button>
+                 </span>
+
+            </div>
+
+        </div>
+        <div id="cloudintegration">
+            <div id="cloudimage">
+                <img src=""/>
+            </div>
+            <div id="content">
+             <h2>Firewall & Vpn Management<br>Workshop</h2>
+             <p>"Refine your skills in configuring, maintaining and<br> troubleshooting firewall settings 
+                and vpn protocols to<br>secure remote connectivity effectively" </p>
+                <span>
+                    <div><label for="progress">Progress<bold>0%</bold>
+                 <progress max="100" value="1"></progress></div>
+                 <div><button>Suggest</button>
+                 </span>
+
+            </div>
+
+        </div>-->
+     
+    </span>
+
+    
+    <div class="all-materials">
+        <span class="functionbtn"><div id="usefulbtn1"><button id="all-status"All status>All status</button><button id="not-started">Not Started</button>
+        <button id="in-progress">In Progress</button><button id="completed"> Completed</button>
+        </div>
+      <div id="usefulbtn2">
+        <span class="search"><input type="search" id="search"></span>
+        <span><i class="fa fa-basket"></i><button>Add filter</button></span>
+        <span><i class="fa fa-basket"></i><button>Sort by</button><i class="fa fa-user"></i></span>
+       </div>
+      </span>
+        <span id="all-materials">
+            <div id="material1">
+                <img src="Img/firewall.png" alt="material1"/>
+                <h2>Advanced Network Security Course</h2>
+                <p>
+                    "Enhance your ability to safegurd our infrastructure <br>with in-depth techniques
+                    covering intrusion detection,<br>threat mitigation and proactive security audits"
+                </p>
+                <span >
+                    <div id="">
+
+                    </div>
+                    <div id="material-progress">
+                        <div>
+                            <span><i class="fa fa-medal"></i>
+                                <bold>20<strong>pts</strong></bold>
+                            </span>
+                            <progress max="100" value="1"></progress>
+                        </div>
+
+                        <div>
+                            <button>Ping</button>
+                        </div>
+                    </div>
+                 
+                </span>
+
+            </div>
+
+            <div id="material">
+                <img src="Img/cloud.png" alt="material1"/>
+                <h2>Cloud Integration Training</h2>
+                <p>
+                    Master the deployment and management of cloud<br> solutions,ensuring
+                seamless integration with our<br> existing system for improved sustainbility and <br>perrformance." 
+                </p>
+                <span >
+                   <div class="progress"><p>progress</p><progress max="100" value="42"></progress></div><button>view</button>
+                 
+                </span>
+            </div>
+            <div id="material">
+                <img src="Img/firewall.png" alt="material1"/>
+                <h2>Firewall & Vpn Management Workshop</h2>
+                <p>
+                    "Refine your skills in configuring, maintaining and<br> troubleshooting firewall settings 
+                and vpn protocols to<br>secure remote connectivity effectively" 
+                </p>
+                <span >
+                    <div class="progress"><p>progress</p><progress max="100" value="42"></progress></div><button>view</button>
+                 
+                </span>
+            </div>
+           
+
+        </span>
+        <span id="all-materials">
+            <div id="material">
+                <img id="mat" src="Img/cloud.png" alt="material1"/>
+                <h2>Emerging Technologies in Networking</h2>
+                <p>
+                    "Explore new trends such as SD-WAN, IOT integra<br>tion,and next generation firewall technologies, 
+                    positi<br>oning yourself,
+                    at the forefront of network innovation"
+                </p>
+                <span >
+                    <div class="progress"><p>progress</p><progress max="100" value="42"></progress></div><button>view</button>
+                 
+                </span>
+            </div>
+            <div id="material">
+                <img id="mat" src="Img/firewall.png" alt="material1"/>
+                <h2>Certification Renewal Preparation <br>(CCNP/CCNA)</h2>
+                <p>
+                    "Prepare for your upcoming certification renewal <br>with targeted study sessions, hands on labs,and practi<br>
+                    ce test
+                    to stay current with evolving  network standards"
+                </p>
+                <span >
+                    <div class="progress"><p>progress</p><progress max="100" value="42"></progress></div><button>view</button>
+                 
+                </span>
+            </div>
+            <div id="material">
+                <img id="mat" src="Img/firewall.png" alt="material1"/>
+                <h2>Network Troubleshooting & Optimization <br>Seminar</h2>
+                <p>
+                    "Learn advanced diagnostic techniques diagnostics <br>techniques and best practices to quickly <br>identify issues ,optimize network performance,<br>
+                    and reduce downtime" 
+                </p>
+                <span id="progress">
+                    <div class="progress"><p>progress</p><progress max="100" value="42"></progress></div><button>view</button>
+                 
+                </span>
+            </div>
+        </span>
+    </div>
+</body>
+</html>

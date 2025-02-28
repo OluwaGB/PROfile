@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/employeetraining.css" rel="stylesheet"></link>
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+/* Sidebar */
+/*.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #555;
+}
+
+.sidebar ul li.active {
+    font-weight: bold;
+    color: #000;
+}*/
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.task-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Circle Chart Placeholder */
+.circle-chart {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+/* Detailed Tasks */
+.detailed-tasks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.task-section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+progress {
+    width: 100%;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Most Frequent Task */
+.most-frequent-task {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.most-frequent-task ul {
+    list-style: none;
+    display:flex;
+flex-direction:grid;
+    padding: 0;
+}
+ 
+.task-section{
+    display:flex;
+    flex-direction:grid;
+}
+
+    </style>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav> 
+            <h1>Employee Profile</h1>
+            <span id="nav">
+                <a href="#" target="blank">Overview</a><a href="performance.html">Performance</a> <a href="#">Attendance&leave</a> 
+                <a href="#">Task and project Contributions</a><a href="Employeetraining.html">Training and Development</a>
+                <a href="feedback&review.html">Feedback & Reviews</a>
+            </span>
+        </nav>
+        <div id="sub-nav"><span><img src="Img/img.jpg" id="avatar"/> 
+           
+            <ul>
+            <li style="font-weight:600; font-size:26px;">Atiloye Timilehin</li><li>100-10-23-1<li></ul></span>
+         <ul style="magin-top:2vh"><li>NetworkEngineer,IT Department</li></ul>
+         <ul style="magin-top:2vh"><li><i class="fa fa-envelope"></i></li>
+         <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>
+         <ul style="magin-top:2vh"><li><i class="fa fa-phone"></i></li>
+         <li style="margin-right:1vw;">Phone:</li>
+         <li>+2349054367890<li></ul>
+          <!----<ul><li><h2 style="margin-right:1vw;">Atiloye Timilehin</h2></li><li><p>100-10-23-1</p></li>
+         </ul>
+         <h4>Network Engineer,IT Department</h4> <ul><li><i class="fa fa-envelope"></i></li>
+            <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>   <ul><li><i class="fa fa-envelope"></i></li>
+                <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>-->
+       </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            
+
+            <!-- Task Overview -->
+            <div class="grid-container">
+                <div class="task-card">
+                    <h3>Total Tasks Assigned</h3>
+                    <p>Last 30 days</p>
+                    <div class="circle-chart">32 tasks this month</div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Completion Rate</h3>
+                    <p>Last 30 days</p>
+                    <div class="circle-chart">85% tasks completed early</div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Efficiency Score</h3>
+                    <p>Last 30 days</p>
+                    <div class="circle-chart">88% task efficiency ratings</div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Network Issue Resolution</h3>
+                    <p>Last 30 days</p>
+                    <div class="circle-chart">90% Efficiency</div>
+                </div>
+            </div>
+
+            <!-- Detailed Task Sections -->
+            <div class="detailed-tasks">
+                <div class="task-section">
+                    <h3>Ongoing Projects</h3>
+                    <p>Troubleshoot connectivity issues <span>85%</span></p>
+                    <progress value="85" max="100"></progress>
+                    <p>Perform routine network maintenance <span>45%</span></p>
+                    <progress value="45" max="100"></progress>
+                    <p>Conduct security audits <span>65%</span></p>
+                    <progress value="65" max="100"></progress>
+                    <button>Add a Comment</button>
+                </div>
+
+                <div class="task-section">
+                    <h3>Completed Projects (Last 30 days)</h3>
+                    <p>Optimize network performance <span>100%</span></p>
+                    <progress value="100" max="100"></progress>
+                    <p>Set up network architecture <span>100%</span></p>
+                    <progress value="100" max="100"></progress>
+                    <p>Implement security protocols <span>100%</span></p>
+                    <progress value="100" max="100"></progress>
+                    <button>Add a Comment</button>
+                </div>
+
+                <div class="task-section">
+                    <h3>Pending Reviews</h3>
+                    <ul>
+                        <li>Security patch deployment - Awaiting IT Lead review</li>
+                        <li>Firewall Update - Pending approval</li>
+                        <li>VPN Setup - Awaiting testing</li>
+                        <li>Bandwidth Optimization - Awaiting manager’s review</li>
+                        <li>System Patching 1 & 2 - Awaiting IT Lead review</li>
+                        <li>Cloud Security Audit - Awaiting IT Lead review</li>
+                        <li>New Office Network 1 - Awaiting IT Lead review</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Most Frequent Task -->
+            <div class="most-frequent-task">
+                <h3>Most Frequent Task</h3>
+                <ul>
+                    <li><strong>Optimize network performance</strong> - Diagnosing and resolving connectivity issues</li>
+                    <li><strong>Set up network architecture</strong> - Designed and configured a secure network</li>
+                    <li><strong>Implement security protocols</strong> - Enforced security measures</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./css/employee.css"></link>
+    <link rel="stylesheet" href="Admin.css"/>
+    
+    <title>Report dashboard</title>
+</head>
+<body >
+    <style>
+        table{width:90%;
+        margin-left:7vw;}
+        button{min-height:3vh}
+    </style>
+    <div class="sidebar">
+		<div class="logo">
+			<img src="Img/logo.png">
+		</div>
+		<ul><li><i class="fa fa-user"></i><a href="#">Dashboard</a></li>
+			<li><i class="fa fa-users"></i><a href="#">Employees</a></li>
+			<li><i class="fa fa-calendar"></i><a href="#">Calendar </a></li>
+			<li><i class="fa fa-clock-o"></i></li><a href="#">Attendance</a></li>
+			<li><i class="fa fa-tachometer"></i><a href="#">Performance</a></li>
+			<li><i class="fa fa-money"></i><a href="#">Payroll</a></li>
+            <li><i class="fa fa-comment"></i><a href="#">Feedback</a></li>
+            <li><i class="fa fa-analytics"></i><a href="#">Analytics and report</a></li>
+             <li><i class="fa fa-user"></i><a href="#">Administration</a></li>
+		</ul>
+		<ul id="others"><li><i class="fa fa-question"></i><a href="#">Help desk</a></li>
+			<li><i class="fa fa-cog"></i><a href="#">Settings</a></li>
+		</ul>
+		<hr>
+        <span id="sidebar-footer"><img src="Img/logo.png"/><span style="display:grid"><h5 style="margin-bottom:0.5vh;">Wisdom Chibuzor</h5>
+        <p style="margin-top:auto;">chizzy@ecz.com</p></span></span></ul>
+    </div>
+
+    <div id="main-content" style="padding-top:auto">
+        <nav id="report-nav"> <p>Welcome wisdom </p> <span><i class="fa fa-bell"></i><i class="fa fa-message"></i> <p>Wisdom Chibuzor</p><img src=""/></span></nav>
+        
+        <div id="reportsub-nav">
+            <h2>Employee</h2>
+         <div id="rsub-nav">
+            <div class="some-btn"style="display:flex; flex-direction:row"><input type="search" placeholder="search by name, role and department"/>
+                <button>Filter<i class="fa fa-filter"></i></button>
+            </div>
+            <div class="some-btn"><button>All Departments<i class="fa fa-dropdown"></i></button><button>Sort by<i class="fa fa-filter"></i></button>
+                <button>Export CSV<i class="fa fa-download"></i></button>
+            </div>
+            
+         </div>
+            
+         
+         
+            
+        </div>
+        <table border="1">
+            <tr>
+                <div id="header">
+                    <th>Employee</th>
+                    <th>Employee ID</th>
+                    <th>Employee Role</th>
+                    <th>Employment Type</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                </div>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            <tr>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Engineer</td>
+                <td>Network Engineer</td>
+                <td><button id="col-4">Full-time</button></td>
+                <td>12345@gmail.com</td>
+                <td>+2349054367890</td>
+                <td><button id="active">Active</button></td>
+            </tr>
+            
+            
+            
+            
+            
+            
+            
+            <!---THe feedback report table-->
+            
+
+        </table>
+        <table border="1" style="margin-left:5vw">
+            <tr>
+                <span id="header">
+                    <th>Date</th>
+                    <th>Receiver Name</th>
+                    <th>Feedback Type</th>
+                    <th>Rating</th>
+                    <th>Comments</th>
+                    
+                </span>
+            </tr>
+            
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Technical efficiency</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Great work on recent network troubleshooting tasks. To further enhance<br> your security 
+                skills, I recommend the Advanced Betwork Security Course."</td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Technical efficiency</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Great work on recent network troubleshooting tasks. To further enhance<br> your security 
+                skills, I recommend the Advanced Betwork Security Course."</td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Anonymous</p></span></td>
+                <td>Communication</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Your technical skills are strong. but lack of  clear updates during outages  <br> makes teamwork harder. Better
+                    communication would help  
+                </td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Network Configuration</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"I've noticedsome challenges with VPNconfigurations. Enrolling in the VPN <br> Setup and Management Work
+                    shop could help streamline your process 
+                </td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Cloud Integration</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Great work on recent network troubleshooting tasks. To further enhance<br> your security 
+                skills, I recommend the Advanced Betwork Security Course."</td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Cloud Integrations</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Great work on recent network troubleshooting tasks. To further enhance<br> your security 
+                skills, I recommend the Advanced Betwork Security Course."</td>
+                
+            </tr>
+            <tr>
+                <td>16-01-25</td>
+                <td><span><img src=""/><p>Atiloye Timilehin</p></span></td>
+                <td>Cloud Integrations</td>
+                <td><button id="col-4">4.5/5</button></td>
+                <td>"Great work on recent network troubleshooting tasks. To further enhance<br> your security 
+                skills, I recommend the Advanced Betwork Security Course."</td>
+                
+            </tr>
+
+        </table>
+    </div>
+    
+</body>
+</html>

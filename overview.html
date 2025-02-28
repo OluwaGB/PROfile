@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Overview</title>
+    <link href="./css/employeetraining.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Container for the details section */
+        .details {
+            display: flex;
+            flex-direction: row;
+            gap: 15px; /* Adjust the gap between columns as needed */
+        }
+
+        /* Column for the first set of divs */
+        .details .column1 {
+            padding:1rem;
+            display: flex;
+            
+            flex-direction: column;
+            flex: 1;
+             }
+        /*hr{width:60vw;
+        margin-left:none;}*/
+        .column1 div{margin-top:none;
+            border:1px solid rgb(231, 231, 231);
+            border-left-color:transparent;
+            border-radius:5px;
+
+        }
+        .column2 div{margin-top:none;
+            padding:1rem;
+            border:1px solid rgb(231, 231, 231);
+            border-right-color:transparent;
+            border-radius:5px;
+
+        }
+
+        /* Column for the second set of divs */
+        .details .column2 {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            width: 40vw;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Flexbox for p tags to align icon and text side by side */
+        .flex-row {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-row i {
+            margin-right: 8px; /* Adjust the margin as needed */
+        }
+        i { font-size:0.8rem; 
+        color:rgb(141, 139, 139);}
+        strong{margin-left:1.5vw;}
+        .column1 div:nth-child(1){
+            min-height:30vh;
+            margin-botom:none;
+        }
+        .column1 div:nth-child(2){
+            min-height:15vh;
+        }
+        .column1 div:nth-child(2){border-top-color:transparent;}
+        .column1 div:nth-child(3){min-height:25vh;
+            border-bottom-color:transparent;}
+        .column2 div:nth-child(2){min-height:50vh;
+        place-content:left;
+     text-aign:left}
+        .column2 div:nth-child(1){min-height:50vh;}
+        /*image in column2 styling*/
+        .column2 img{max-width:40vw;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Employee Profile</h1>
+            <span id="nav">
+                <a href="overview.html" target="blank">Overview</a><a href="performance.html">Performance</a> <a href="#">Attendance&leave</a>
+                <a href="#">Task and project Contributions</a><a href="employeetraining.html">Training and Development</a>
+                <a href="feedback&review.html">Feedback & Reviews</a>
+            </span>
+        </nav>
+        <div id="sub-nav">
+            <span><img src="Img/img.jpg" id="avatar"/>
+                <ul>
+                    <li style="font-weight: 600; font-size: 26px;">Atiloye Timilehin</li>
+                    <li>100-10-23-1</li>
+                </ul>
+            </span>
+            <ul style="margin-top: 2vh;">
+                <li>Network Engineer, IT Department</li>
+            </ul>
+            <ul style="margin-top: 2vh;">
+                <li class="flex-row"><i class="fa fa-envelope"></i>Email: 12345@gmail.com</li>
+            </ul>
+            <ul style="margin-top: 2vh;">
+                <li class="flex-row"><i class="fa fa-phone"></i>Phone: +2349054367890</li>
+            </ul>
+        </div>
+        <div class="content">
+            
+    
+
+            <div class="details">
+                <div class="column1">
+                    <div class="about">
+                        <h3>About</h3>
+                        <p class="flex-row"><i class="fa fa-envelope"></i>Email: <strong>12345@gmail.com</strong></p>
+                        <p class="flex-row"><i class="fa fa-phone"></i>Phone:<strong> +2349054367890</strong></p>
+                    </div>
+                    <hr>
+                    <div class="address">
+                        <h3 class="flex-row"><i class="fa fa-map-marker"></i>Address: <strong>Allen avenue Ikeja</strong></h3>
+                        <p class="flex-row"><i class="fa fa-map-pin"></i>City/State: <strong>Lagos</strong></p>
+                        <p class="flex-row"><i class="fa fa-map-pin"></i>Postcode: <strong>100001</strong></p>
+                    </div>
+                    <hr>
+                    <div class="employee-details">
+                        <h3>Employee Details</h3>
+                        <p class="flex-row"><i class="fa fa-birthday-cake"></i>Date of Birth: <strong>Feb 07, 1994</strong></p>
+                        <p class="flex-row"><i class="fa fa-id-card"></i>National ID: <strong>123456789</strong></p>
+                        <p class="flex-row"><i class="fa fa-briefcase"></i>Role/Permission: <strong>Network Engineer</strong></p>
+                        <p class="flex-row"><i class="fa fa-calendar"></i>Date of Joining: <strong>Feb 07, 2025</strong></p>
+                        <p class="flex-row"><i class="fa fa-user"></i>Manager: <strong>Bolatito Williams</strong></p>
+                        <p class="flex-row"><i class="fa fa-clock-o"></i>Employment Type: <strong>Full-time</strong></p>
+                        <p class="flex-row"><i class="fa fa-check-circle"></i>Work Status:<strong> Active</strong></p>
+                    </div>
+                </div>
+
+                <div class="column2">
+                    <h3>Monthly Performance Overview</h3>
+                    <div class="performance">
+    
+                        <img src="Img/Frame 55.png" />
+                    </div>
+                    <hr>
+                    <div class="achievements">
+                        <h3>Recent Achievements</h3>
+                        <ul>
+                            <li class="flex-row"><i class="fa fa-trophy"></i><strong>Employee of the Month</strong> – Recognized for exceptional performance in [project/task]
+                             and  exceeding key performance indicators</li>
+                            <li class="flex-row"><i class="fa fa-flag"></i><strong>Successful Project Delivery</strong> – Led the completion of [Project Name],improving [specific metric] by [%]</li>
+                            <li class="flex-row"><i class="fa fa-users"></i>Mentored new team members, boosting overall productivity and team morale</li>
+                            <li class="flex-row"><i class="fa fa-certificate"></i><strong>Skill Advancement</strong> – Earned a new certification in [Skill/field] to enhance expertise and 
+                                contribute more effectively.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

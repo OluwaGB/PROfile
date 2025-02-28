@@ -1,0 +1,155 @@
+
+#nav,#all-materials, span,.progress,#courseoverview,#usefulbtn1,#usefulbtn2,.functionbtn,#sub-nav,ul{display:flex;
+flex-direction:row;
+}
+/*avatar*/
+#avatar{border-radius:12px;
+    max-width:5vw;
+min-height:2vh;
+margin-bottom:2vh;}
+
+nav{background-color:rgb(248, 246, 246);
+padding:0.5rem;
+margin-bottom:3vh;}
+nav h2{margin-left:2vw;}
+nav a{text-decoration:none;
+    font-weight:800;
+color:rgb(187, 182, 182)}
+nav a:hover{color:rgb(24, 144, 241);
+text-decoration:underline;}
+/*sub nav styling*/
+#sub-nav{justify-content:space-around;
+margin-bottom:1vh;}
+
+ul{list-style-type:none;}
+#all-materials,#nav{justify-content:space-around;
+margin:auto;
+margin-top:5vh;}
+#nav{margin-top: 2vh;}
+#courseoverview{justify-content:space-evenly;
+margin:auto;
+padding:auto;}
+#progress div{display:flex;
+flex-direction:row;}
+#trainingprogress{padding:0.8rem;
+border:1px solid rgb(224, 224, 224);
+border-radius:3px;}
+#trainingprogress img{min-width:2vw;}
+/*styling for ongoingcourse div goes here*/
+#ongoingcourse{border:1px solid rgb(224, 224, 224);
+    padding:0.6rem;
+    min-width:10vw;
+    min-height:8vh;
+    padding-bottom:5vh;
+    border-radius:6px;
+    margin-right:3vw;
+    margin-left:3vw;
+}
+#ongoingcourse div{display:flex;
+flex-direction:column;}
+#ongoingcourse progress{min-width:20vw;}
+#ongoingcourse span{justify-content:space-between;}
+#ongoingcourse button{padding:0.6rem;
+    margin-top:2vh;
+    margin-right:5vw;
+    margin-left:6vw;
+min-width:7vw;
+}
+/*some-btns button styling*/
+#some-btns button{
+    padding:0.6rem;
+    margin-top:1.5vh;
+}
+#some-btns{padding:0.3rem;
+display:flex;
+border-radius:4px;
+
+flex-direction:column;}
+/*special button styling*/
+.functionbtn button{background-color:rgb(240, 238, 238);
+color:black;}
+#usefulbtn1 button:nth-child(1){
+    background-color:#070763;
+    color:white;
+}
+
+/*progress bar styling*/
+progress{-webkit-appearance:none;
+    border-radius:8px;
+appearance:none;
+height:2vh;}
+/*used to give colour to the percentage covered in each course*/
+progress::-webkit-progress-value{background-color: rgb(240, 134, 14);
+border-radius:8px;}
+/*give colour to the course progress*/
+progress::-webkit-progress-bar{border-radius:8px;
+    color:rgbte(255, 255, 255);
+    height:1.0vh;
+}
+
+/*other styling*/
+#all-materials progress{min-width:17vw;
+    margin-top:3vh;}
+    
+#material span{
+    justify-content:space-between;
+}
+#all-materials h2{
+    font-size:1.2rem;
+}
+#all-materials img{min-width:25vw;
+    max-height:20vh;
+border-radius:3px;
+}
+#mat{min-width:30vw;
+margin-top:auto}
+button{color:white;
+    background-color:rgb(7, 7, 99);
+border:none;
+padding:0.3rem;
+min-width:4vw;
+border-radius:3px;
+max-height:5vh;
+}
+/*styling for each course*/
+#material,#material1{
+    border:1px solid rgb(224, 224, 224);
+    border-radius:3px;
+    padding:0.3rem;
+    place-content:center;
+}
+h2{font-size:0.8rem;}
+.functionbtn{justify-content:space-between;
+margin-top:5vh;}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Icon styling */
+i {
+    font-size: 1.0rem; /* Adjust the size as needed */
+   color: rgb(216, 213, 213)k; /* Adjust the color as needed */
+    margin-right:1.5vw; /* Adjust the margin as needed */
+}
+/* Round progress bar styling */
+.progress progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 20px; /* Adjust the height as needed */
+    border-radius: 10px; /* Make the progress bar round */
+    overflow: hidden;
+}
+
+.progress progress::-webkit-progress-bar {
+    background-color: #f3f3f3; /* Background color of the progress bar */
+    border-radius: 10px; /* Make the progress bar round */
+}
+
+.progress progress::-webkit-progress-value {
+    background-color: green; /* Color of the progress value */
+    border-radius: 10px; /* Make the progress bar round */
+}
+
+.progress progress::-moz-progress-bar {
+    background-color: green; /* Color of the progress value for Firefox */
+    border-radius: 10px; /* Make the progress bar round */
+}
