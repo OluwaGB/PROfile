@@ -428,7 +428,7 @@ li i{display:none;}
         flex-direction: row;
         justify-content: space-between;
     }
-    nav button{display:none}
+    nav button{width:4vw;}
 
     #hero {min-width:80vwvw;
         flex-direction: column;
@@ -515,7 +515,7 @@ align-items:center;}
         max-width:80vw;
         align-items: center;
     }
-    #testimonial img{max-width:7 0vw;}
+    #testimonial img{max-width:50vw;}
 .footer-column2 ul{
     align-items:left;
     text-align:left;
