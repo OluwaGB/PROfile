@@ -9,7 +9,8 @@
 </head>
 <body>
     <style>
-       
+       /*hiding the mobile header*/
+       .mobile-header{display:none;}
         .diffAssesment{margin:auto;
         display:flex;
       flex-direction:row;
@@ -30,6 +31,46 @@
         margin-left:3vw;
         min-width:80vw;
         }
+        @media (min-width: 75px) and (max-width: 575px){
+            nav{display:flex;
+            overflow-x:auto;/*to enable horizontal scroll*/
+        white-space:nowrap; /*prevent line breaks between the links tag*/
+    padding:0.5rem;
+    position: fixed; /* Fix the nav position */
+                top: 0;
+                width: 100vw;
+                background-color: white; /* Add background color to nav */
+                z-index: 1000; /* Ensure nav is on top */
+            nargin-bottom:10vh;}
+    nav h1{display:none;}
+    nav a{display:inline-block;/*ensure the linktag are display inline and can scroll*/
+    padding:0.5rem;}
+            #sub-nav{display:none;}
+
+            body,.diffAssesment,.diffAssesment1,.mobile-nav{display:flex;
+                padding:1.0rem;
+            flex-direction:column;
+        align-items:center;margin:auto;
+    min-width:100vw;}
+        .diffAssesment img{min-width:70vw;
+        margin-top:2vh;}
+        #img{min-width:70vw;}
+        .diffAssesment1 img{min-width:70vw;
+        margin-top:2vh;}
+        .performancebar img{max-width:20vw;
+           /* position:fixed;
+        z-index:-1000;
+        width:100vw;
+    overflow-x:auto ;*//*to enable  horizontal scroll*/
+        }
+       /* .performancebar img{display:inline-block;}*/
+        .diffAssesment1 :nth-child(3){
+            max-height:10vh;
+            
+        }
+        }
+        
+
 
     </style>
     <nav> 
@@ -56,11 +97,16 @@
         <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>   <ul><li><i class="fa fa-envelope"></i></li>
             <li style="margin-right:1vw;">Email:</li><li>12345@gmail.com<li></ul>-->
    </div>
+   <div class="mobile-header">
+    <img src="Img/img.jpg" id="avatar"/>
+    <h3>Network Engineer, IT Department</h3>
+    <p>100-10-23-1</p>
+   </div>
    <div class="diffAssesment">
     <img src="Img/Group 34.png"/><img src="Img/Frame 34655.png"/><img src="Img/rating.png"/><img src="Img/Group 13.png"/>
    </div>
    <div class="diffAssesment1"><img src="Img/Group 13.png"/><img src="Img/keystrength.png"/>
-    <img src="Img/improvement.png"/></div>
+    <img id="img" src="Img/improvement.png"/></div>
     <div class="performancebar">
         <img src="Img/performancetrend.png" alt=""/>
     </div>

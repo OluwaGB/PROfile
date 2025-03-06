@@ -20,6 +20,8 @@ text-decoration:underline;}
 /*sub nav styling*/
 #sub-nav{justify-content:space-around;
 margin-bottom:1vh;}
+/*hiding mobile header*/
+.mobile-header{display:none;}
 
 ul{list-style-type:none;}
 #all-materials,#nav{justify-content:space-around;
