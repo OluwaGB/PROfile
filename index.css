@@ -428,8 +428,9 @@ li i{display:none;}
         flex-direction: row;
         justify-content: space-between;
     }
-    nav button{width:4vw;}
 
+    nav button{width:6vw;}
+     #hbtn{margin-right:1vw;}
     #hero {min-width:80vwvw;
         flex-direction: column;
         padding: 2.5rem;
@@ -477,7 +478,7 @@ min-width:5vw;}
 nav img{max-width:7vw;}
 
     .partners {margin-bottom:3vh;
-        margin-top:3vh;
+        margin-top:20vh;
         flex-direction: column;
         align-items: center;
     }
