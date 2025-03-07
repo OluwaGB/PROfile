@@ -429,8 +429,9 @@ li i{display:none;}
         justify-content: space-between;
     }
 
-    nav button{width:6vw;}
-     #hbtn{margin-right:1vw;}
+    nav button{width:7vw;
+    margin-right:1vw;}
+     #hbtn{margin-right:2vw;}
     #hero {min-width:80vwvw;
         flex-direction: column;
         padding: 2.5rem;
@@ -488,8 +489,11 @@ min-width:30vw;}
     #section3, #section4 {
         flex-direction: column;
         align-items: center;
+        padding:1.0rem;
     }
-
+   #section5{padding:0.8rem;}
+   header{padding:1.0rem;
+ }
     #image img {
         max-width: 100%;
         margin-top: 1rem;
