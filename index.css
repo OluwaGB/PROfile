@@ -68,10 +68,10 @@ justify-content:space-between;}
     min-height: 50vh;
     margin-left: 5vw;
     margin-right: -6vw;
-    margin-bottom: -20vh;
+    margin-bottom: -5vh;
 }
 
-#heroImg img{margin-top:30vh;
+#heroImg img{margin-top:20vh;
    max-width:20vw;
   margin-bottom:20vh;
    margin: left -5vw;
