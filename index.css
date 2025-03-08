@@ -65,14 +65,15 @@ justify-content:space-between;}
     background-image: url('Img/Dashboard.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 60vh;
+    min-height: 50vh;
     margin-left: 5vw;
     margin-right: -6vw;
-    margin-bottom: -27vh;
+    margin-bottom: -5vh;
 }
 
-#heroImg img{margin-top:20vh;
+#heroImg img{margin-top:5vh;
    max-width:20vw;
+  margin-bottom:20vh;
    margin: left -5vw;
 }
 #hero-btn1{
