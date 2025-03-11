@@ -112,7 +112,7 @@
                 padding: 0.5rem;
                 position: fixed; /* Fix the nav position */
                 top: 0;
-                width: 100vw;
+                min-width: 100vw;
                 background-color: white; /* Add background color to nav */
                 z-index: 1000; /* Ensure nav is on top */
                 margin-bottom: 10vh;
@@ -139,68 +139,15 @@
                 margin: auto;
                 min-width: 100vw;
             }
-
-            /* This style applies to the divs in column1 */
-            .column1 div {
-                min-width: 100vw;
-                display: flex;
-                z-index: 1000;
-                flex-direction: column;
-                align-items: left;
-                text-align: left;
-                margin-top: 2vh;
-                border: none;
-                max-height: 10vh;
+            .column1 div,.achievements{min-width:100vw;
             }
-
-            .performance {
-                min-width: 100vw;
-                margin-top: 40vh;
+            .column2 div{min-width:100vw;}
+            .column2 img{min-width:100vw}
+            .about,.address{
+                max-height:5vh;
+                padding:auto;
             }
-
-            /* Styling the column2 img */
-            .performance img {
-                min-width: 100vw;
-            }
-
-            .column2 h2 {
-                text-align: left;
-            }
-
-            .details div {
-                max-height: 10vh;
-            }
-
-            .performancebar img {
-                max-width: 20vw;
-            }
-
-            .achievements li {
-                display: flex;
-                flex-direction:column;
-                text-align: left;
-            }
-
-            .achievements strong {
-                z-index: 1;
-            }
-
-            /* nth-child styling */
-            .column1 :nth-child(1) {
-                padding-bottom: 1vh;
-            }
-
-            .column1 :nth-child(3) {
-                margin-bottom: 20vh;
-            }
-
-            .column2 :nth-child(1) {
-                min-width: 80vw;
-                padding: 0.8rem;
-                border:1px solid rgb(231, 231, 231);
-                border-radius:3px;
-            }
-        }
+            .achievements{padding-top:auto;} 
     </style>
 </head>
 <body>
