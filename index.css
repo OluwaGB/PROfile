@@ -43,7 +43,7 @@ span{
     background-size:cover;
     background-repeat: no-repeat;
     color:white;
-    height:90vh;
+    height:88vh;
     background-blend-mode: overlay;
     background-color:linear-gradient(45deg, #009688, #002f63);
 
@@ -73,7 +73,7 @@ justify-content:space-between;}
 
 #heroImg img{margin-top:5vh;
    max-width:20vw;
-  margin-bottom:-20vh;
+  margin-bottom:-25vh;
    margin: left -5vw;
 }
 #hero-btn1{
