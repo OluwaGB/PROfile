@@ -199,9 +199,8 @@ button a{color:white;}
         display:flex;
         min-width:100vw;
         flex-direction:column;
-        padding:1px;
-        
-    }
+        padding-top:0vh;
+        }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
     }
