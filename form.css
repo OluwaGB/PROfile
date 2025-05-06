@@ -207,7 +207,7 @@ button a{color:white;}
     }
     #signupImg{padding-bottom:15vh;}
     /*To prevent overlapping of the signup form element*/
-    .signup form{
+    #form a{
         padding-bottom:15vh;
     }
     input{min-height:3vh;
@@ -215,7 +215,7 @@ button a{color:white;}
         
         min-width:85vw;
     }
-    #form{
+    #form{min-height:34vh;
         min-width:90vw;
     }
     #form button{margin-right:35vw;
@@ -226,6 +226,8 @@ min-width:35vw;}
 /*#signupform span{ margin-bottom:5vh;
     margin-bottom:10vh;
 }*/
+
+.signin,.signup{padding-top:auto;}
 
 
 
