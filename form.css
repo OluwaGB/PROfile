@@ -205,6 +205,11 @@ button a{color:white;}
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
     }
+    #signupImg{padding-bottom:10vh;}
+    /*To prevent overlapping of the signup form element*/
+    .signup form{
+        padding-bottom:10vh;
+    }
     input{min-height:3vh;
         padding:0.5rem;
         
