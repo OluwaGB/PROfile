@@ -199,7 +199,7 @@ button a{color:white;}
         display:flex;
         min-width:100vw;
         flex-direction:column;
-        padding-top:.0.5vh;
+        padding-top:0.1vh;
         }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
@@ -221,6 +221,8 @@ button a{color:white;}
     margin-left:30vw;
 min-width:35vw;}
 
+}
+#signupform span{ margin-bottom:5vh;
 }
 
 
