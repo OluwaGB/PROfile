@@ -203,20 +203,21 @@ button a{color:white;}
         }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
+                      padding-top:35vh;
                       margin-top:1px;
                     /*  margin-top:0.1vh;*/
     }
     #signupImg{padding-bottom:15vh;}
     /*To prevent overlapping of the signup form element*/
     #form a{
-        padding-bottom:15vh;
+        padding-bottom:5vh;
     }
     input{min-height:3vh;
         padding:0.5rem;
         
         min-width:85vw;
     }
-    #form{max-height:80vh;
+    #form{max-height:70vh;
         min-width:90vw;
           padding-bottom:15vh;
     }
