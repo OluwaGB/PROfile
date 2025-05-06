@@ -203,7 +203,7 @@ button a{color:white;}
         
     }
     #intro{min-width:70vw;}
-#signinImg,.signupImg{min-width:100vw;
+#signinImg,#signupImg{min-width:100vw;
     }
     input{min-height:3vh;
         padding:0.5rem;
