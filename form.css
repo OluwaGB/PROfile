@@ -216,8 +216,9 @@ button a{color:white;}
         
         min-width:85vw;
     }
-    #form{min-height:50vh;
+    #form{max-height:80vh;
         min-width:90vw;
+          padding-bottom:15vh;
     }
     #form button{margin-right:35vw;
     margin-left:30vw;
