@@ -203,6 +203,7 @@ button a{color:white;}
         }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
+                      margin-top:1px;
                     /*  margin-top:0.1vh;*/
     }
     #signupImg{padding-bottom:15vh;}
@@ -215,7 +216,7 @@ button a{color:white;}
         
         min-width:85vw;
     }
-    #form{min-height:34vh;
+    #form{min-height:50vh;
         min-width:90vw;
     }
     #form button{margin-right:35vw;
@@ -223,11 +224,11 @@ button a{color:white;}
 min-width:35vw;}
 
 }
-/*#signupform span{ margin-bottom:5vh;
+#form span{ margin-bottom:5vh;
     margin-bottom:10vh;
-}*/
+}
 
-.signin,.signup{padding-top:auto;}
+.signin,.signup{padding-top:1px;}
 
 
 
