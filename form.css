@@ -224,11 +224,11 @@ button a{color:white;}
 min-width:35vw;}
 
 }
-#form span{ margin-bottom:5vh;
+#signupform p{
     margin-bottom:10vh;
 }
 
-.signin,.signup{padding-top:1px;}
+.signin,.signup{padding-top:0.5px;}
 
 
 
