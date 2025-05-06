@@ -170,7 +170,7 @@ border-radius:8px;}
 #form a{text-align:right;}
 /*increase the signup form height*/
 #signupform{
-    max-height:60vh;
+    max-height:70vh;
 }
 /*form button*/
 #form button{
@@ -203,7 +203,7 @@ button a{color:white;}
         }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
-                      margin-top:0.1vh;
+                    /*  margin-top:0.1vh;*/
     }
     #signupImg{padding-bottom:15vh;}
     /*To prevent overlapping of the signup form element*/
@@ -223,9 +223,9 @@ button a{color:white;}
 min-width:35vw;}
 
 }
-#signupform span{ margin-bottom:5vh;
+/*#signupform span{ margin-bottom:5vh;
     margin-bottom:10vh;
-}
+}*/
 
 
 
