@@ -199,7 +199,7 @@ button a{color:white;}
         display:flex;
         min-width:100vw;
         flex-direction:column;
-        padding-top:0vh;
+        padding-top:.0.5vh;
         }
     #intro{min-width:70vw;}
 #signinImg,#signupImg{min-width:100vw;
@@ -207,7 +207,7 @@ button a{color:white;}
     #signupImg{padding-bottom:15vh;}
     /*To prevent overlapping of the signup form element*/
     .signup form{
-        padding-bottom:13vh;
+        padding-bottom:15vh;
     }
     input{min-height:3vh;
         padding:0.5rem;
