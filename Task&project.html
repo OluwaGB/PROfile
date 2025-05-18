@@ -205,7 +205,20 @@ padding-bottom:1vh;}
 }
 ul{margin-top:auto;}
  
-
+@media (min-width: 75px) and (max-width: 700px){
+  nav h1{display:none;}
+  #sub-nav{display:none;}
+  nav a{display:inline-block;
+        padding:0.5rem;}
+  nav{display:flex;
+      position:fixed;
+      overflow-x:auto;/*enable horizontal scrolling of nav element */
+      z-index:1000;/*prevent overlapping of other body element on the nav element*/
+      white-space:nowrap;/*to prevent line breaks between anchor tag*/
+      padding:0.5rem;
+      width:100vw; /*set the width to full the viewing device*/
+      top:0;/*since the position of nav is fixed,this is used to set the nav close to the top of the screen*/
+}
     </style>
     <div class="container">
         <!-- Sidebar -->
