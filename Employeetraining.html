@@ -7,6 +7,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Employee Course</title>
 </head>
+    <style>
+    .mansory{
+        columns:3;
+        column-gap:10px;
+    }
+    .mansory img{
+        min-width:30vw;
+    }
+    @media (min-width: 75px) and (max-width: 575px){
+        nav{
+            overflow-x:auto;/*enable horizontal scrolling of the nav element*/
+            white-space:nowrap;/*prevent linebreak between the nav element*/
+            padding:0.5rem;
+            position:fixed;
+            top:0;
+            width:100vw;
+            background-color:white;
+            z-index:1000;/*prevent the overlapping of the nav bar by other elements*/
+            margin-bottom:10vh;
+        }
+        nav a{display:inline-block; /*ensure the scrolling of the link tag */
+        font: size 8px;}
+        #sub-nav, .mobile-header{
+            display:none;
+        }
+        #all-materials,.all-materials,#courseoverview{
+           display:flex;
+           flex-direction:column;
+           align-items:center;
+           min-width:90vw;
+           margin:auto;
+          }
+          nav h1{display:none;}
+          #courseoverview img{min-width:90vw;}
+          #ongoingcourse{min-width:0vw;}
+        progress{width:90vw}
+          /*#courseoverview div{max-width:20vw;}*/
+          .functionbtn,#usefulbtn2,.search{display:none;}
+          #all-materials img{
+            min-width:90vw;
+          }
+          #ongoingcourse button{
+           /* margin-right:5vw;*/
+            margin-left:18vw;
+            min-width:60vw;
+          }
+          #some-btns{border-color:none;}
+          #some-btns button{
+            
+          }
+
+    }
+</style>
 <body>
     
     <nav> 
