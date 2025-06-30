@@ -187,6 +187,8 @@ footer h6{text-align:center;}
     width:6vw;
     height:auto;
 }
+footer a{text-decoration:none;
+        color:white;}
 
 #why-column1,#last-sec,.partners,#section3,#section4{margin:auto;
     display:flex;
