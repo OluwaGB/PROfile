@@ -359,7 +359,7 @@ body{padding:auto;
         flex-direction: column;
         align-items: center;
     }
-
+body{min-width:100vw;}
     #hero {
         flex-direction: column;
         padding: 1rem;
@@ -409,7 +409,7 @@ body{padding:auto;
         padding: 1rem;
     }
 
-    footer {
+    footer {padding:0.1rem;
         flex-direction: column;
         align-items: center;
     }
