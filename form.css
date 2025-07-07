@@ -207,6 +207,7 @@ button a{color:white;}
           margin-top:1vh;}
 #signinImg,#signupImg{min-width:100vw;
                       margin-top:auto;
+                      padding-top:auto;
                     /*  margin-top:0.1vh;*/
     }
     #signupImg{padding-bottom:15vh;}
