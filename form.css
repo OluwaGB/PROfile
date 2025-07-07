@@ -200,11 +200,12 @@ button a{color:white;}
         min-width:100vw;
         flex-direction:column;
         padding-top:auto;
+        marging-top:auto;
         }
     #intro{min-width:70vw;
           margin-top:1vh;}
 #signinImg,#signupImg{min-width:100vw;
-                      margin-top:1px;
+                      margin-top:auto;
                     /*  margin-top:0.1vh;*/
     }
     #signupImg{padding-bottom:15vh;}
@@ -230,7 +231,7 @@ min-width:35vw;}
     margin-bottom:5vh;
 }
 
-.signin,.signup{padding-top:0.5px;}
+.signin,.signup{padding-top:auto;}
 #span{margin-bottom:15vh}
 
 
