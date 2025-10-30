@@ -41,6 +41,25 @@
             </form>
         </div>
     </div>
-    
+    <script>
+document.getElementById("signupform").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const data = Object.fromEntries(new FormData(form).entries());
+
+  const response = await fetch("https://formspree.io/f/mdkpznqn", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+  });
+
+  if (response.ok) {
+    alert("Message sent successfully!");
+    form.reset();
+  } else {
+    alert("Oops! Something went wrong.");
+  }
+});
+</script>
 </body>
 </html>
